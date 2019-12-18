@@ -20,7 +20,7 @@ def scrape():
     info_dict["Mars_Image"] = marsImage()
     info_dict["Mars_Weather"] = marsWeather()
     info_dict["Mars_Facts"] = marsFacts()
-    info_dict["Mars_Hemispheres"] = marsHemispheres()
+    info_dict["Mars_Hemispheres"] = marsHemipsheres()
 
     return info_dict
 
